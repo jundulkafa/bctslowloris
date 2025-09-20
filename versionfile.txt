@@ -1,3 +1,1 @@
-v3.2.0
-
-[major].[minor].[fixes]-[optional label]
+📘 Bangladesh Cyber Troops — Slowloris: Version 420
