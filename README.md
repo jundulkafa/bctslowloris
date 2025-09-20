@@ -79,7 +79,7 @@ This project was created in Python by the **BCT Team** to supplement our final-y
     - The target server crashes.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jundulkafa/bctslowloris/main/Images/Unterminated.png" >
+<img src="https://github.com/jundulkafa/bctslowloris/blob/Images/Unterminated.png" >
 <p>Sending Unterminated Requests</p>
 </div>
 
@@ -97,7 +97,7 @@ This project was created in Python by the **BCT Team** to supplement our final-y
     - The target server crashes.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jundulkafa/bctslowloris/main/Images/Terminated.png" >
+<img src="https://github.com/jundulkafa/bctslowloris/blob/Images/Terminated.png" >
 <p>Sending Terminated Requests</p>
 </div>
 
@@ -105,14 +105,14 @@ This project was created in Python by the **BCT Team** to supplement our final-y
 When the server-side threads that are explicitly assigned to be serving clients are completely occupied by BCTSlowloris's flood of terminated or unterminated GET requests, a legitimate client would fail to connect with the web server due to an insufficient amount of available threads on the server-side. This will result in the "Waiting for \<target host\>" message as the web browser anticipates a connection but never establishes one:
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jundulkafa/bctslowloris/main/Images/Waiting.png" >
+<img src="https://github.com/jundulkafa/bctslowloris/blob/Images/Waiting.png" >
 <p>Waiting...</p>
 </div>
 
 Further, upon waiting for a long enough amount of time, the web browser gives up as the server-side threads are completely occupied serving the attacker's requests. This is when the "ERR_CONNECTION_TIMED_OUT" error message is displayed to a legitimate client attempting to access the web page:
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jundulkafa/bctslowloris/main/Images/ERR_CONNECTION_TIMED_OUT.png" >
+<img src="https://github.com/jundulkafa/bctslowloris/blob/Images/ERR_CONNECTION_TIMED_OUT.png" >
 <p>ERR_CONNECTION_TIMED_OUT</p>
 </div>
 
@@ -124,7 +124,7 @@ That stated, if a reverse proxy server is poorly implemented or configured, then
 Upon a reverse proxy server failure such as this, a page resembling the following context / nature would display to a legitimate client attempting to access the web page:
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jundulkafa/bctslowloris/main/Images/Reverse%20Proxy%20Failure.jpg" >
+<img src="https://github.com/jundulkafa/bctslowloris/blob/Images/Reverse%20Proxy%20Failure.jpg" >
 <p>Reverse Proxy Server Failure</p>
 </div>
 
