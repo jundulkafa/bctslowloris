@@ -1,9 +1,3 @@
-Of course. I have customized the README.md for your GitHub repository, incorporating your team and author name, and updating the links accordingly.
-
-Here is the revised version:
-
----
-
 # BCTSlowloris: Multithreaded Slow DoS Attack
 
 ## Description
