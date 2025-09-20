@@ -1,4 +1,5 @@
-# BCTSlowloris: Multithreaded Slow DoS Attack
+# 🔬 Bangladesh Cyber Troops — Slowloris : The Most Powerfull  DoS Attack
+**Author:** Jundul Kafa
 
 ## Description
 A unique, multithreaded Low & Slow Denial-of-Service (Slow DoS) exploit against web servers that use vulnerable versions of thread-based web server software (Apache 1.x, Apache 2.x, httpd, etc.). This tool denies typical service to a web server’s legitimate clients by exhausting server resources at the cost of minimal bandwidth at the attacker's end — *using a single system*.
