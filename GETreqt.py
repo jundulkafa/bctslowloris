@@ -8,7 +8,7 @@ import tqdm
 colorama.init()
 
 currentVersionNumber = "v3.2.0"
-VERSION_CHECK_URL = "https://raw.githubusercontent.com/SHUR1K-N/GETreqt-Multithreaded-Slow-DoS-Attack/master/versionfile.txt"
+VERSION_CHECK_URL = "https://github.com/jundulkafa/bctslowloris/blob/main/versionfile.txt"
 BANNER1 = colored('''
    ▄████ ▓█████▄▄▄█████▓ ██▀███  ▓█████   █████  ▄▄▄█████▓
   ██▒ ▀█▒▓█   ▀▓  ██▒ ▓▒▓██ ▒ ██▒▓█   ▀ ▒██▓  ██▒▓  ██▒ ▓▒
@@ -41,10 +41,10 @@ def versionCheck():
     currentVersionNumber = int(''.join(currentVersionNumber))
 
     if currentVersionNumber >= latestVersionNumber:
-        print(colored(" You are using the latest version!\n", "green"))
+        print(colored(" You are using TEAM-BCT version!\n", "green"))
     elif currentVersionNumber < latestVersionNumber:
         print(colored(" You are using an older version of GETreqt.", "red"))
-        print(colored("\nGet the latest version at https://github.com/SHUR1K-N/GETreqt-Multithreaded-Slow-DoS-Attack", "yellow"))
+        print(colored("\nGet the latest version at https://github.com/jundulkafa/bctslowloris ", "yellow"))
         print(colored("Every new version comes with fixes, improvements, new features, etc..", "yellow"))
         print(colored("Please do not open an Issue if you see this message and have not yet tried the latest version.\n", "yellow"))
 
