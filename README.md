@@ -6,7 +6,7 @@ A unique, multithreaded Low & Slow Denial-of-Service (Slow DoS) exploit against 
 This unique approach uses staggering amounts of concurrently generated HTTP GET requests even while the other sockets are being created and established on-the-go, and is ironically effective against even some of its typical mitigation mechanisms such as poorly implemented reverse proxy servers.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jundulkafa/bctslowloris/main/Images/Example%20Execution.png" >
+<img src="https://github.com/jundulkafa/bctslowloris/blob/Images/Example%20Execution.png" >
 <p>Example Execution</p>
 </div>
 
